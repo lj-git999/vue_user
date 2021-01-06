@@ -14,6 +14,8 @@ export default new Router({
     {path:"/second/:id",component:Second},
     {path:"/third/:id",component:Third},
     {path:"/add/:id",component:Add},
+    {path:"/",component:First},
+    {path:"/*",component:First},
 
   ]
 })
